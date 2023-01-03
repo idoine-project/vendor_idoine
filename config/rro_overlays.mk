@@ -47,7 +47,6 @@ PRODUCT_PACKAGES += \
     ClearCallingSettingsOverlay2022 \
     CellBroadcastReceiverOverlay \
     CellBroadcastServiceOverlay \
-    GooglePermissionControllerOverlay \
     MediaProviderOverlay \
     NetworkStackGoogleOverlay \
     PixelBatteryHealthOverlay \
