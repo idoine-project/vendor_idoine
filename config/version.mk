@@ -17,8 +17,8 @@
 #
 
 # Versioning System
-EVO_BASE_VERSION := 7.6
-EVO_CODENAME := Sinigang
+EVO_BASE_VERSION := 7.6.1
+EVO_CODENAME := Adobo
 
 # Set all versions
 EVO_BUILD_TYPE ?= UNOFFICIAL
