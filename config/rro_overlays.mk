@@ -39,13 +39,10 @@ PRODUCT_PACKAGES += \
     SystemUIGXOverlay
 
 # Now Playing Overlay
-ifneq ($(filter blueline crosshatch bonito sargo flame coral sunfish bramble redfin oriole raven bluejay panther cheetah, $(TARGET_DEVICE)),)
 PRODUCT_PACKAGES += \
     NowPlayingOverlay
-endif
 
 # Google Apex Overlays
-ifneq ($(filter blueline crosshatch bonito sargo flame coral sunfish bramble redfin oriole raven bluejay panther cheetah, $(TARGET_DEVICE)),)
 PRODUCT_PACKAGES += \
     ClearCallingSettingsOverlay2022 \
     CellBroadcastReceiverOverlay \
@@ -56,4 +53,3 @@ PRODUCT_PACKAGES += \
     PixelBatteryHealthOverlay \
     PixelConnectivityOverlay2022 \
     PixelTetheringOverlay
-endif
